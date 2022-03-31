@@ -1,0 +1,356 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(10, 10, 12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding:10px 25px;
+}
+header h2 span{
+    color:blue;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#navbar a{
+    position:relative;
+    color: rgb(245, 241, 241);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 15px;
+}
+#navbar a:hover{
+    color:rgb(22,22,333);
+    transition: 0.10s;
+    transition-property: color;
+}
+#frame1 .home{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+#frame1 .home h5{
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+}
+#frame1 .home h2{
+    color: black;
+    font-size: 55px;
+    margin-bottom: 4px;
+}
+#frame1 .home span{
+    color: blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#frame1 .home p{
+    margin-top: 2px;
+}
+#frame1 .home a{
+    background-color: blue;
+    text-decoration: none;
+    color:white;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius:5px;
+    display: inline-block;
+    margin: 30px 0px;
+    border:1px solid blue;
+}
+#frame1 .home a:hover{
+   color: blue;
+   background-color: white;
+   box-shadow: 2px 2px 2px blue;
+}
+#about{
+    background-color: black;
+}
+#about h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding:25px 25px;
+    text-align: center;   
+}
+#about h2 span{
+    color: blue;
+}
+#about .img img{
+    width: 230px;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border:5px solid blue;
+    border-radius: 5px;
+}
+.frame2{
+    color: white;
+    float: right; 
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-right: 17%;  
+}
+.frame2 h3{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding:15px 0px; 
+}
+.frame2 h3 span{
+    color:blue;
+}
+.frame2 a{
+    background-color: blue;
+    text-decoration: none;
+    color:white;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius:5px;
+    display: inline-block;
+    margin: 30px 0px;
+    border:1px solid blue;
+}
+.frame2 a:hover{
+    color: blue;
+    background-color:black;
+    transition: 0.40;
+    box-shadow: 2px 2px 2px blue;
+}
+#skills{
+    margin-bottom: 100px;
+}
+#skills h2{
+   font-size: 35px;
+   font-weight: bold;
+   padding:25px 0px;
+   text-align: center;
+}
+#skills h2 span{
+    color:blue;
+}
+#skills .row{
+    margin: 1rem 1rem;
+}
+#skills .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+#skills .item-text{
+    display: flex;
+    justify-content:flex-start;
+    font-weight:100;
+    font-size: 1.3rem;
+    position: relative;
+}
+#skills .item-text span:last-child{
+    position: absolute;
+}
+#skills .item-text .w-90{
+    margin-left: 90%;  
+}
+#skills .item-text .w-70{
+    margin-left: 70%;   
+}
+#skills .item-text .w-80{
+    margin-left: 80%;   
+}
+#skills .item-text .w-60{
+    margin-left: 60%;   
+}
+#skills .item-text .w-75{
+    margin-left: 75%;   
+}
+ .progress{
+   margin: 0.8rem 0;
+   border-radius: 10px;
+   height: 16px;
+   width:100%;
+   background-color:rgb(109, 106, 106);
+   overflow: hidden;
+}
+.progress-bar{
+    background:blue;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-70{
+    width: 70%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
+.progress-bar.w-75{
+    width: 75%;
+}
+#skills .row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+}
+#Eduction{
+    background-color: black;
+}
+#Eduction h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding:25px 25px;
+    text-align: center; 
+}
+#Eduction h2 span{
+    color:blue;
+}
+#Eduction .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+#Eduction .box-container .box{
+    width: 29rem;
+    margin:4rem 8rem;
+    padding-left: 2rem;
+    border-left:2px solid white;
+    position:relative;
+}
+#Eduction .box-container .box span{
+    font-size: 20px;
+    color:white;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 3px 8px;
+}
+#Eduction .box-container .box h3{
+    font-size: 20px;
+    color:white;
+    padding-top: 10px;
+    text-align: center;
+}
+#Eduction .box-container .box p{
+    font-size:14px;
+    color:white;
+    padding:10px 0;
+}
+#contact h2{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    padding:25px 25px;
+    text-align: center; 
+}
+#contact h2 span{
+    color:blue;
+}
+#contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:black;
+    margin-left:35px;
+    margin-right:35px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+}
+#contact .row .content{
+    flex:1 1 30rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+#contact .row form{
+    flex:1 1 45rem;
+    padding: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+#contact .row form .box{
+    padding: 10px;
+    margin: 1rem 0;
+    background: rgb(80, 80, 80);
+    color: white;
+    text-transform: none;
+    font-size: 1.5rem;
+    width: 100%;
+}
+#contact .row form textarea{
+    width: 100%;
+    color:white;
+    background-color:rgb(80, 80, 80);
+    padding: 10px;
+    margin: 1rem 0;
+    text-transform: none;
+    font-size: 16px;
+}
+#contact .row form button{
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius:5px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top:4px;
+    border:1px solid white;
+}
+#contact .row form button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 2px white;
+}
+#contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 92px;
+    font-weight: normal;
+}
+#contact .row .content h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 100px;
+    font-weight: 600;
+}
+.info img{
+    width: 60px;
+    height: 60px;
+}
+#bar a{
+    padding: 15px;
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
+    position: fixed;
+    text-decoration: none;
+    margin-left: 95%;
+    margin-top: 35%;
+}
+
+
+
+
+
